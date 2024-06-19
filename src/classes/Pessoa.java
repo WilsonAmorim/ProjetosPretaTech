@@ -67,7 +67,7 @@ public abstract class Pessoa {
 
     public String mostrar() {
         String resposta = "CPF: " + this.getCpf() +
-                "Nome: " + this.getNome() +
+                "\nNome: " + this.getNome() +
                 "\nIdade: " + this.getIdade() +
                 "\nSexo: " + this.getSexo();
         return resposta;

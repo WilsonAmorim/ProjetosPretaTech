@@ -46,8 +46,8 @@ public class Funcionario extends Pessoa {
 
     public String mostrar() {
         String resposta = super.mostrar() +
-                "Cargo: " + this.getCargo() +
-                "Salário: " + this.getSalario();
+                "\nCargo: " + this.getCargo() +
+                "\nSalário: " + this.getSalario();
         return resposta;
 
     }
